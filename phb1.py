@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'phb1.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class PHB(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(811, 590)
+        self.label = QtWidgets.QLabel(Form)
+        self.label.setGeometry(QtCore.QRect(0, 0, 811, 591))
+        self.label.setText("")
+        self.label.setPixmap(QtGui.QPixmap(r"C:\Users\Your Dad\Desktop/python/fjsss/排行s.jpg"))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(Form)
+        self.label_2.setGeometry(QtCore.QRect(80, 360, 72, 15))
+        self.label_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_2.setText("")
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(Form)
+        self.label_3.setGeometry(QtCore.QRect(80, 410, 72, 15))
+        self.label_3.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_3.setText("")
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(Form)
+        self.label_4.setGeometry(QtCore.QRect(80, 450, 72, 15))
+        self.label_4.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_4.setText("")
+        self.label_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(Form)
+        self.label_5.setGeometry(QtCore.QRect(280, 360, 72, 15))
+        self.label_5.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_5.setText("")
+        self.label_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(Form)
+        self.label_6.setGeometry(QtCore.QRect(280, 450, 72, 15))
+        self.label_6.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_6.setText("")
+        self.label_6.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(Form)
+        self.label_7.setGeometry(QtCore.QRect(280, 410, 72, 15))
+        self.label_7.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_7.setText("")
+        self.label_7.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(Form)
+        self.label_8.setGeometry(QtCore.QRect(475, 450, 72, 15))
+        self.label_8.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_8.setText("")
+        self.label_8.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_8.setObjectName("label_8")
+        self.label_9 = QtWidgets.QLabel(Form)
+        self.label_9.setGeometry(QtCore.QRect(475, 410, 72, 15))
+        self.label_9.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_9.setText("")
+        self.label_9.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_9.setObjectName("label_9")
+        self.label_10 = QtWidgets.QLabel(Form)
+        self.label_10.setGeometry(QtCore.QRect(475, 360, 72, 15))
+        self.label_10.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_10.setText("")
+        self.label_10.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_10.setObjectName("label_10")
+        self.label_11 = QtWidgets.QLabel(Form)
+        self.label_11.setGeometry(QtCore.QRect(670, 360, 72, 15))
+        self.label_11.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_11.setText("")
+        self.label_11.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_11.setObjectName("label_11")
+        self.label_12 = QtWidgets.QLabel(Form)
+        self.label_12.setGeometry(QtCore.QRect(670, 410, 72, 15))
+        self.label_12.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_12.setText("")
+        self.label_12.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_12.setObjectName("label_12")
+        self.label_13 = QtWidgets.QLabel(Form)
+        self.label_13.setGeometry(QtCore.QRect(670, 450, 72, 15))
+        self.label_13.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_13.setText("")
+        self.label_13.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_13.setObjectName("label_13")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "排行榜"))
+#import phb_rc
